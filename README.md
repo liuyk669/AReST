@@ -1,8 +1,14 @@
 # AReST
 
+**AReST v1.0.0**
+
 AReST is a spatially weighted neighborhood contrast framework for detecting anomalous regions in comparative spatial transcriptomics data.
 
 Comparative spatial transcriptomics is often used to ask not only which genes change between biological conditions, but also where condition related molecular changes appear within tissue. AReST addresses this problem by estimating spot level anomaly evidence from transcriptional neighborhoods, incorporating spatial proximity, correcting for the global condition prior, and converting positive anomaly evidence into spatially coherent anomalous regions.
+
+## Framework
+
+![AReST framework](figures/arest_framework.png)
 
 ## Overview
 
@@ -41,3 +47,25 @@ git lfs pull
 ```
 
 The compressed simulation matrices are stored directly in git and do not require Git LFS.
+
+## Requirements
+
+```text
+anndata>=0.10
+scanpy>=1.10
+numpy>=1.26
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.4
+scikit-misc>=0.3
+matplotlib>=3.8
+jupyter>=1.0
+```
+
+## Version
+
+Current version: **AReST v1.0.0**
+
+## License
+
+AReST is released under the MIT License.
