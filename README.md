@@ -8,7 +8,7 @@ Comparative spatial transcriptomics is often used to ask not only which genes ch
 
 ## Framework
 
-![AReST framework](figures/figure1.pdf)
+![AReST framework](figures/AReST.png)
 
 ## Overview
 
